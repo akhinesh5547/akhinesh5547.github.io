@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Canadian University Dubai</title>
+    <style>
+        /* Basic Reset */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            box-sizing: border-box;
+        }
+
+        /* Header Styling */
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 2rem 1rem;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-top: 2rem;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        /* Form Styling */
+        form {
+            margin-top: 2rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-size: 1.2rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 1.1rem;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Admissions - Canadian University Dubai</h1>
+</header>
+
+<main>
+    <h2>Welcome to Admissions</h2>
+    <p>Welcome to Canadian University Dubai's admissions page. Here you will find information on how to apply to our university, admission requirements, deadlines, and more.</p>
+    
+    <h2>Application Process</h2>
+    <ol>
+        <li>Complete the online application form on our website.</li>
+        <li>Submit the required documents, including transcripts, test scores, and any additional materials requested.</li>
+        <li>Pay the application fee.</li>
+        <li>Wait for a decision on your application.</li>
+        <li>If accepted, follow the instructions provided for enrollment.</li>
+    </ol>
+    
+    <h2>Admission Requirements</h2>
+    <p>Admission requirements vary depending on the program and level of study. Please refer to the specific requirements for your program of interest on our website.</p>
+    
+    <h2>Deadlines</h2>
+    <p>Application deadlines also vary by program. Be sure to check the deadlines for your desired program on our website and submit your application before the specified date.</p>
+    
+    <!-- Admission Form -->
+    <h2>Apply Now</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="program">Program of Interest:</label>
+        <select id="program" name="program" required>
+            <option value="">Select Program</option>
+            <option value="Bachelor of Business Administration (BBA)">Bachelor of Business Administration (BBA)</option>
+            <option value="Bachelor of Science (BSc) in Information Technology">Bachelor of Science (BSc) in Information Technology</option>
+            <option value="Bachelor of Arts (BA) in Communication">Bachelor of Arts (BA) in Communication</option>
+            <option value="Bachelor of Engineering (BE)">Bachelor of Engineering (BE)</option>
+            <option value="Master of Business Administration (MBA)">Master of Business Administration (MBA)</option>
+            <option value="Master of Science (MSc) in Information Technology">Master of Science (MSc) in Information Technology</option>
+            <option value="Master of Arts (MA) in Communication">Master of Arts (MA) in Communication</option>
+            <option value="Master of Engineering (ME)">Master of Engineering (ME)</option>
+        </select>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality" required>
+
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 Canadian University Dubai. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

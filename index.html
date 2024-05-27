@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian University Dubai</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Admissions.html">Admissions</a></li>
+                <li><a href="program.html">Program</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="hero" id="home">
+    <video autoplay muted loop id="hero-video">
+        <source src="resources/Canadian University Dubai.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="hero-content">
+        <h1>Welcome to Canadian University Dubai</h1>
+        <p>Empowering the leaders of tomorrow with world-class education</p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+    </div>
+</div>
+
+<div class="container">
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>Canadian University Dubai (CUD) offers a diverse range of academic programs inspired by the Canadian curriculum. Our commitment to quality education and research ensures that our students are equipped with the skills and knowledge needed to excel in their careers and make a positive impact on society.</p>
+    </section>
+
+    <section class="section" id="programs">
+        <h2>Academic Programs</h2>
+        <div class="programs">
+            <div class="program">
+                <h3>Computer Science</h3>
+                <p>Learn cutting-edge technologies and develop innovative software solutions.</p>
+            </div>
+            <div class="program">
+                <h3>Business Administration</h3>
+                <p>Master the principles of management, finance, and entrepreneurship.</p>
+            </div>
+            <div class="program">
+                <h3>Engineering</h3>
+                <p>Explore advanced concepts in electrical, mechanical, and civil engineering.</p>
+            </div>
+            <div class="program">
+                <h3>Architecture</h3>
+                <p>Design sustainable and aesthetically pleasing structures.</p>
+            </div>
+            <div class="program">
+                <h3>Media Studies</h3>
+                <p>Delve into the world of media production and communication.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="faculty">
+        <h2>Our Faculty</h2>
+        <div class="faculty">
+            <div class="faculty-member">
+                <img src="resources/dr 1.jpeg" alt="Dr. Ghada Abaido">
+                <h3>Dr. Ghada Abaido</h3>
+                <p>Faculty of Communication, Arts and Sciences</p>
+            </div>
+            <div class="faculty-member">
+                <img src="resources/dr 2.jpg" alt="Dr. Rita Zgheib">
+                <h3>Dr. Rita Zgheib</h3>
+                <p>	School of Engineering, Applied Science and Technology</p>
+            </div>
+            <div class="faculty-member">
+                <img src="resources/dr 3.png" alt=" Dr. Sherif Moussa">
+                <h3>Dr. Sherif Moussa</h3>
+                <p>	Associate Professor / Dean</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Canadian University Dubai. All rights reserved.</p>
+</footer>
+
+<script>
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>

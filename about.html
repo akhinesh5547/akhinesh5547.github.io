@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Canadian University Dubai</title>
+    <style>
+        /* Basic Reset */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            font-family: 'Arial', sans-serif;
+            scroll-behavior: smooth;
+            line-height: 1.6;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('primary-hero--about-cud--accreditations-and-rankings-1920x1080.jpg') no-repeat center center;
+            background-size: cover;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Container and Section Styling */
+        .container {
+            padding: 2rem 1rem;
+            margin-top: 70px; /* To offset the fixed header */
+            background: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+
+        .section p, .section ul {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 0.5em;
+        }
+
+        .section ul li strong {
+            font-weight: bold;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .container {
+                margin-top: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero" aria-label="Introduction">
+    <div class="hero-content">
+        <h1>About Canadian University Dubai</h1>
+        <p>Discover our mission, values, and the impact of our education.</p>
+    </div>
+</section>
+
+<main class="container">
+    <section class="section" id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">Our Story</h2>
+        <p>Founded in 2006, Canadian University Dubai (CUD) is a forward-thinking institution offering a range of academic programs inspired by the Canadian curriculum. Located in the heart of Dubai, our university provides students with an education that prepares them to be leaders in a globalized world. Our commitment to excellence in teaching, research, and community engagement ensures that our graduates are well-equipped to meet future challenges.</p>
+    </section>
+
+    <section class="section" id="mission-vision" aria-labelledby="mission-vision-heading">
+        <h2 id="mission-vision-heading">Mission and Vision</h2>
+        <article>
+            <h3>Mission</h3>
+            <p>To provide a gateway for students to pursue higher education, research, and professional development through a Canadian-based curriculum in a culturally diverse and globally engaged environment.</p>
+        </article>
+        <article>
+            <h3>Vision</h3>
+            <p>To be recognized as a leading university that fosters innovation, creativity, and academic excellence, contributing to the development of future leaders who will make a positive impact on society.</p>
+        </article>
+    </section>
+
+    <section class="section" id="values" aria-labelledby="values-heading">
+        <h2 id="values-heading">Our Values</h2>
+        <ul>
+            <li><strong>Integrity:</strong> We uphold the highest standards of honesty and transparency in all our actions.</li>
+            <li><strong>Respect:</strong> We embrace diversity and promote an inclusive environment where everyone is treated with dignity.</li>
+            <li><strong>Excellence:</strong> We strive for the highest quality in our academic programs, research, and community engagement.</li>
+            <li><strong>Innovation:</strong> We encourage creativity and the pursuit of new ideas that can lead to positive change.</li>
+            <li><strong>Collaboration:</strong> We foster a spirit of cooperation and teamwork among our students, faculty, and partners.</li>
+        </ul>
+    </section>
+
+    <section class="section" id="why-cud" aria-labelledby="why-cud-heading">
+        <h2 id="why-cud-heading">Why Choose CUD?</h2>
+        <p>At Canadian University Dubai, we provide a unique blend of academic rigor and practical experience. Our students benefit from:</p>
+        <ul>
+            <li>A diverse and inclusive campus community.</li>
+            <li>Access to state-of-the-art facilities and resources.</li>
+            <li>Opportunities for international exchange and study abroad programs.</li>
+            <li>A strong network of industry connections and career services.</li>
+            <li>Supportive faculty and staff dedicated to student success.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Canadian University Dubai. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
